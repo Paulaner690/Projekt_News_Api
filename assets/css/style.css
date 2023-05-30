@@ -1,0 +1,121 @@
+/* ========= GENERAL STYLES ========= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:  #FFE5CA;
+}
+
+h2{
+    color: white;
+    padding: 1rem 2rem  1.5rem 2rem;
+}
+
+h5{
+    padding: 0.5rem 2rem;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0.8rem 1rem ;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 1rem auto;
+    width: fit-content;
+}
+
+a:hover{
+    background-color: #E74646;
+    border: 2px solid #E74646;
+}
+
+p{
+    padding: 1rem 2rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px 10px 5px 5px;
+}
+
+ /* =========== HEADER =========== */
+header{
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E74646;
+}
+
+/* =========== MAIN =========== */
+main{
+    background-color:  #FFF3E2;
+    min-height: 100vh;
+}
+
+/* =========== SEARCH/ LANGUAGE =========== */
+form{
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    width: 45%;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#btn{
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: #FA9884;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: #E74646;
+    border: 2px solid #E74646;
+    color: white;
+}
+
+#languages{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* =========== ARTICLE SECTION =========== */
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+article{
+    background-color: #FA9884;
+    margin: 1rem;
+    border-radius: 10px;
+}
